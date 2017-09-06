@@ -1,6 +1,8 @@
 # MMM-mumble
 A [MagicMirror²](https://github.com/MichMich/MagicMirror) Module to display users currently connected on the murmur server
 
+![MumbleScreenshot](https://github.com/ThePirateWhoSmellsOfSunflowers/MMM-mumble/raw/master/screenshot.png)
+
 
 ## Dependencies
 Because murmur's ICE API is such a pain to use and I'm really bad at Javascript, you need [this wrapper](https://github.com/ThePirateWhoSmellsOfSunflowers/murmur-ice/blob/master/rest_api_murmur.py).

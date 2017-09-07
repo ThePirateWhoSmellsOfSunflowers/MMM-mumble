@@ -8,7 +8,21 @@ A [MagicMirror²](https://github.com/MichMich/MagicMirror) Module to display use
 Because murmur's ICE API is such a pain to use and I'm really bad at Javascript, you need [this wrapper](https://github.com/ThePirateWhoSmellsOfSunflowers/murmur-ice/blob/master/rest_api_murmur.py).
 
 ## Usage
-On the server side you need to configure the wrapper with the correct parameters and launch it (in a tmux, screen, deamon, whatever...). 
+On the server side you need to configure the wrapper with the correct parameters and launch it (in a tmux, screen, deamon, whatever...).
+
+Example of `config.js`
+```
+{
+	module: 'MMM-muble',
+	position: 'top_right',
+	header: 'My Mumble Server',
+	config: {
+		address: 'http://10.0.0.1:1337/users'
+	}
+},
+
+```
+
 
 ## Options
 
